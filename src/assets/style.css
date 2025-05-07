@@ -1,0 +1,67 @@
+/* ==========================================================================
+   GLOBAL STYLESHEET — The GoodMe ✨
+   ========================================================================== */
+
+/* 1. Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+/* 2. Design Tokens */
+:root {
+  --font-family: 'Nunito', system-ui, sans-serif;
+  --bg-color: #d1efff;
+  --text-color: #333;
+
+  --primary: #ff0000;
+  --accent: #ffbe76;
+  --neutral: #f0f0f0;
+
+  --radius: 1.25rem;
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.05);
+
+  --space-xs: 0.5rem;
+  --space-s: 0.75rem;
+  --space-m: 1.25rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+}
+
+/* 3. Global Reset */
+body {
+  margin: 0;
+  padding: 0rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* 4. Smooth transitions */
+button,
+input,
+.card {
+  transition: all 0.2s ease;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
