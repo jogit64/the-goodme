@@ -32,3 +32,5 @@ coverage
 local-api/.env
 .env
 .env.dev
+
+CHGT_MODE_ON_OFF_API_pour_soutien.md
