@@ -3,7 +3,7 @@
     <div class="boost-inline">
       <img src="@/assets/boosthead2.png" alt="Boost" class="boost-icon" />
       <div class="boost-text">
-        <p class="boost-label">Besoin d’un coup de boost ?</p>
+        <p class="boost-label">Trop Besoin d’un coup de boost ?</p>
         <span class="alinea">(3 appels max. / jour)</span>
       </div>
     </div>
